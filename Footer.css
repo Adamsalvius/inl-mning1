@@ -1,0 +1,23 @@
+ footer .container {
+     padding-top: 1em;
+ }
+ 
+ footer {
+     background: var(--footerbg);
+     padding: 2em 0;
+ }
+ 
+ footer ul a {
+     /* padding: 1em 0; */
+     color: var(--textwhite);
+ }
+ 
+ footer ul {
+     list-style-type: none;
+ }
+ 
+ footer h3 {
+     display: block;
+     border-bottom: 3px solid white;
+     color: white;
+ }

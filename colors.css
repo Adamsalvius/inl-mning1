@@ -1,0 +1,21 @@
+:root {
+    --headerbg: #186bd6;
+    --footerbg: #013881;
+    --textblk: #0e0e0e;
+    --containercolor: #caf2ff;
+    --textwhite: #fdfff4;
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0px 10px rgb(143, 143, 143);
+}
+
+.doku nav li {
+    border-bottom: 1px rgb(165, 165, 165) solid;
+}
+
+header {
+    background: var(--headerbg);
+}

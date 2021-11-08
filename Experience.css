@@ -1,0 +1,38 @@
+.erfarenheter {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.erfarenhet {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: 2;
+    gap: 3em;
+    flex-grow: 1;
+}
+
+.erfarenhet p {
+    font-size: 5vw;
+}
+
+.erfarenhet h3 {
+    display: flex;
+    padding-top: 1em;
+    justify-content: start;
+}
+
+@media (min-width: 300px) {}
+
+@media (min-width: 660px) {
+    .erfarenheter>* {
+        flex-direction: row;
+        flex: auto;
+    }
+    .erfarenheter {
+        flex: auto;
+        max-width: 600px;
+    }
+}

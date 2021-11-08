@@ -1,0 +1,63 @@
+/* .banana {
+    max-width: 5px;
+    height: auto;
+} */
+
+.doku h3 {
+    margin: 20px 0;
+}
+
+.doku nav li {
+    /* font-size: 17px; */
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+.card {
+    border-radius: 15px;
+    /* box-shadow: 0 0px 10px rgb(143, 143, 143); */
+    padding: 25px;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+
+/* media */
+
+@media (min-width: 560px) {
+    .card h2,
+    h3 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .grid,
+    .doku .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
